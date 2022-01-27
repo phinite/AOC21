@@ -24,7 +24,7 @@ int part_2(FILE* fpt) {
 			c = b;
 			b = a;
 			fscanf(fpt, "%d", &a);
-		} while (c == 0;
+		} while (c == 0);
 		sa = a+b+c;
 		if (sa > sb) i++;
 		sb = sa;
